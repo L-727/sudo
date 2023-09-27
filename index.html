@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <title>数独游戏</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="./page.css" type="text/css">
+  <body style="background-image: url('background.jpg');">
+	
+    <header class="header">
+      <h1>数独</h1>
+    </header>
+    <div class="container">
+      <div class="game">
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        <input type="text" />
+        
+      </div>
+      
+      <div class="info">
+        <div class="todo">
+          <span class="select_header">选择难度：</span>
+          <select class="select">
+            <option class="junior">初级</option>
+            <option class="middle">中级</option>
+            <option class="high">高级</option>
+          </select>
+          <!-- <button class="ranking_btn" onclick="openChart()">排行榜</button>--> 
+        </div>
+        <div class="cur_situation">
+          <label>选择难度开始比赛</label>
+        </div>
+        <button class="start" onclick="showSudu()">开始/切换</button>
+        <button class="submit" onclick="submitAnswer()">提交结果</button>
+      </div>
+      <div class="username-box">
+        <p>游戏通过！！！用时：<span class="time">0</span>min</p>
+		 <button class="close" onclick="closeChart()">确定</button>
+		 
+	  </div>
+<!--      
+	  <span>请输入你的用户名：</span>
+        <input type="text" class="username"/>
+        <input class="submit-grade" type="button" onclick="submitGrade()" value="提交"/>
+      </div>
+      <div class="rank-chart">
+        <header class="chart-header">
+          <span>最好成绩:&nbsp;
+            <span class="b-username"></span>&nbsp;--&nbsp;
+            <span class="b-time"></span>min
+          </span>
+        </header>
+        <header class="chart-header">
+          <span>最近十次成绩</span>
+        </header>
+        <ul class="rank-li">
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+          <li><span class="username"></span>&nbsp;--&nbsp;<span class="user-time"></span>&nbsp;min</li>
+        </ul>
+        <button class="close" onclick="closeChart()">确定</button>
+      </div>
+    </div>
+	--> 
+  </body>
+  <script src="./sudu.js"></script>
+  <script type="text/javascript" src="./index.js"></script>
+</html>

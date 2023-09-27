@@ -1,0 +1,108 @@
+/* 标题样式，应用于header标签下的h1标签 */  
+.header h1 {  
+  text-align: center; /* 文字居中对齐 */  
+  color: #f34949; /* 文字颜色为#f34949 */  
+  opacity: 0.8; /* 文字的透明度为0.8 */  
+  font-size: 60px; /* 字体大小为60像素 */  
+  font-family: 'Times New Roman', Times, serif; /* 字体为'Times New Roman'，如果找不到则使用Times，如果还是找不到则使用serif字体 */  
+}  
+  
+/* 容器样式，应用于class为container的元素 */  
+.container {  
+  display: flex; /* 显示模式为flex */  
+  justify-content: space-around; /* flex子元素在主轴上均匀分布 */  
+ 
+}  
+
+/* 格子颜色样式，应用于class为game的元素 */  
+/*格子颜色*/  
+.game {  
+  display: grid; /* 显示模式为grid */  
+  grid: repeat(9, 44px) / auto-flow 44px; /* 创建一个9行44像素的网格，列自动流动，宽度为44像素 */  
+}  
+/* 格子颜色样式，应用于class为game的元素下的input元素 */  
+/*格子颜色*/  
+.game input {  
+  background-color: #5F9EA0; /* 背景颜色为#8ca0ff */  
+  width: 20px; /* 宽度为20像素 */  
+  height: 20px; /* 高度为20像素 */  
+  font-size: 20px; /* 字体大小为20像素 */  
+  padding: 10px; /* 内边距为10像素 */  
+}  
+  
+/* 难度和提示语句颜色样式，应用于class为info的元素 */  
+/*难度，以及提示语句颜色*/  
+.info {  
+  display: flex; /* 显示模式为flex */  
+  flex-direction: column; /* flex子元素按列布局 */  
+  align-content: center; /* flex子元素在交叉轴上居中对齐 */  
+   color: 	#FF4500    /* 文字颜色为#00FF00 */  
+}  
+  
+/* 难度下拉框背景样式，应用于class为cur_situation的元素 */  
+/*文本框背景*/
+.cur_situation {  
+  width: 400px; /* 宽度为400像素 */  
+  height: 200px; /* 高度为200像素 */  
+  border: 5px solid gray; /* 边框为1像素的灰色实线 */  
+  background-color: #FFFFFF  
+}  
+  
+/* 定义一个名为.select的类，其下的元素将应用以下样式（此处没有给出样式） */   
+.select {  
+}  
+  
+/* 定义一个名为.todo的类，其下的元素将应用以下样式 */   
+.todo {  
+  margin: 20px 30px; /* 外边距上下为20像素，左右为30像素 */  
+}  
+  
+/* 定义一个名为.start的类，其下的元素将应用以下样式 */   
+/* 开始游戏按钮样式，应用于class为start的元素 */   
+.start {  
+  border: none; /* 无边框 */  
+  width: 300px; /* 宽度为300像素 */  
+  height: 30px; /* 高度为30像素 */  
+  color: white; /* 文字颜色为白色 */  
+  background-color: #2E8B57; /* 背景颜色为#f34949 */  
+  border-radius: 8px; /* 边框圆角为8像素 */  
+  margin: 20px 50px; /* 外边距上下为20像素，左右为50像素 */  
+}  
+  
+/* 提交结果按钮样式，应用于class为submit的元素 */   
+.submit {  
+  border: none; /* 无边框 */  
+  width: 300px; /* 宽度为300像素 */  
+  height: 30px; /* 高度为30像素 */  
+  color: white; /* 文字颜色为白色 */  
+  background-color: #2E8B57; /* 背景颜色为#f34949 */  
+  border-radius: 8px; /* 边框圆角为8像素 */  
+  margin: 20px 50px; /* 外边距上下为20像素，左右为50像素 */  
+}  
+  
+/* 排行榜背景色样式，应用于class为ranking_btn, .submit-garde, .close的元素 *
+/*排行榜背景 #00FF00*/
+/* 排行榜按钮样式，应用于class为ranking_btn, .submit-garde, .close的元素 */  
+
+  
+/* 开始游戏弹出框样式，应用于class为username-box的元素 */  
+/*开始游戏*/  
+/*提交成功界面*/
+.username-box {  
+  display: none; /* 不显示 */  
+  position: fixed; /* 位置固定 */  
+  top: 200px; /* 距离顶部200像素 */  
+  background-color: MintCream ;   
+  border: 1px solid #f34949; /* 边框为1像素的#f34949实线 */  
+  border-radius: 15px; /* 边框圆角为15像素 */  
+  padding: 20px; /* 内边距为20像素 */  
+  text-align: center; /* 文字居中对齐 */  
+}  
+  
+/* 开始游戏弹出框中的段落样式，应用于class为username-box下的p元素 */  
+.username-box p {  
+  font-size: 30px; /* 字体大小为30像素 */  
+  margin: 0 0 20px 0; /* 外边距上下为20像素，左右为0 */  
+  color: #f34949; /* 文字颜色为#f34949 */  
+}  
+/**/
